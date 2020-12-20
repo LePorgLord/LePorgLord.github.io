@@ -119,12 +119,23 @@ body {
   }
   .item {
     text-decoration: none;
-    width: 20vw;
-    height: 30vw;
-    margin: 6vw;
+    width: 21vw;
+    height: 88vw;
+    margin: 5vw;
   
     background-color: whitesmoke;
     border-radius: 2vw;
     border: solid 1vw coral;
     text-align: center;
   }
+  #Maya{
+  width: 21vw;
+  
+  }
+  #BaileyJr{
+  width: 20vw;
+  height: 12vw;
+  }
+  #Vivian{
+    width: 21vw;
+    }
