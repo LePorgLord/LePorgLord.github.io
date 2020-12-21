@@ -127,6 +127,8 @@ body {
     border: solid 1vw coral;
     text-align: center;
     overflow: scroll;
+    font-family: "Montserrat", sans-serif;
+  font-size: 100%;
   }
   #Maya{
   width: 21vw;
@@ -145,5 +147,6 @@ body {
       padding: 1.5vw;
       margin: auto;
       color: whitesmoke;
+      font-family: "Roboto", sans-serif;
     }
     
