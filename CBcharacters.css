@@ -115,18 +115,18 @@ body {
   .container{
     display: flex;
     align-self: center;
-    align-items: center;
+    align-items: top;
   }
   .item {
     text-decoration: none;
     width: 21vw;
-    height: 88vw;
+    height: 40vw;
     margin: 5vw;
-  
+    padding: 1vw;
     background-color: whitesmoke;
-    border-radius: 2vw;
     border: solid 1vw coral;
     text-align: center;
+    overflow: scroll;
   }
   #Maya{
   width: 21vw;
@@ -139,3 +139,11 @@ body {
   #Vivian{
     width: 21vw;
     }
+  footer{
+      background-color: coral;
+      text-align: center;
+      padding: 1.5vw;
+      margin: auto;
+      color: whitesmoke;
+    }
+    
