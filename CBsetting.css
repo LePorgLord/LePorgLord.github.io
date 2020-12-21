@@ -130,6 +130,8 @@ body {
     text-align: center;
     text-align: center;
     overflow: scroll;
+    font-family: "Montserrat", sans-serif;
+  font-size: 100%;
   }
   #sanfran{
     width: fit-content;
@@ -140,5 +142,6 @@ body {
     padding: 1.5vw;
     margin: auto;
     color: whitesmoke;
+    font-family: "Roboto", sans-serif;
   }
   
