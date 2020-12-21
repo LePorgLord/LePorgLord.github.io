@@ -116,16 +116,29 @@ body {
   .container{
     display: flex;
     align-self: center;
-    align-items: center;
+    align-items: top;
   }
   .item {
     text-decoration: none;
     width: 20vw;
     height: 30vw;
     margin: 6vw;
+    padding: 1vw;
   
     background-color: whitesmoke;
-    border-radius: 2vw;
     border: solid 1vw coral;
     text-align: center;
+    text-align: center;
+    overflow: scroll;
   }
+  #sanfran{
+    width: fit-content;
+  }
+  footer{
+    background-color: coral;
+    text-align: center;
+    padding: 1.5vw;
+    margin: auto;
+    color: whitesmoke;
+  }
+  
