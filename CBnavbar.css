@@ -55,8 +55,10 @@ h2 {
 }
 #mainBox {
   margin: auto;
-  height: 70vw;
+  height: fit-content;
   width: 42.2vw;
+  padding: 1vw;
+  text-align: center;
   border: coral solid 1vw;
   background-color:whitesmoke;
   margin-bottom: 100px;
@@ -78,4 +80,11 @@ img{
   position: absolute;
   float: left;
   width: 19.82vw;
+}
+footer{
+  background-color: coral;
+  text-align: center;
+  padding: 1.5vw;
+  margin: auto;
+  color: whitesmoke;
 }
