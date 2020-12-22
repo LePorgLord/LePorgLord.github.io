@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+  }
+  #emergencyBanner {
+    background-color:coral;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+  }
+  #Navbar {
+    /*In css, an id is indicated by a hashtag symbol.*/
+    list-style-type: none;
+    /*Te list-style-type: none caues the buuleted list style to be erased.*/
+    margin: 0;
+    padding: 0;
+    /*Padding is the layer after margin on the inside of a website.*/
+    background-color: whitesmoke;
+    overflow: hidden;
+    /*Overflow ensures that nothing "spills out" of the nav bar, and rather reamins within."*/
+  }
+  li {
+    width: 19.82vw;
+    /*20vw sets the list item to 20 percent of the creen width at all time*/
+    float: left;
+  }
+  li a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    /*Removes the auto-generated underlining featured in links.*/
+    display: block;
+    /*Ensures that the text and links remain within the nav bar.*/
+    padding: 14px 16px;
+    /*With two-dimensional formatting, the first space is for the height, while the second is for the width.*/
+  }
+  li a:hover {
+    background-color: gray;
+    color: white;
+  }
+  h1 {
+    font-size: 60;
+    text-align: center;
+    font-family: "Staatliches", cursive;
+  }
+  h2 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 2vw;
+  }
+  
+  h3{
+    text-align: center;
+}
+  .container{
+    display: flex;
+    align-self: center;
+    align-items: top;
+  }
+  .item {
+    text-decoration: none;
+    width: 21vw;
+    height: 20vw;
+    margin: 5vw;
+    padding: 1vw;
+    background-color: whitesmoke;
+    border: solid 1vw coral;
+    text-align: left;
+    overflow: scroll;
+    font-family: "Montserrat", sans-serif;
+  font-size: 100%;
+  }
+
+  footer{
+      background-color: coral;
+      text-align: center;
+      padding: 1.5vw;
+      margin: auto;
+      color: whitesmoke;
+      font-family: "Roboto", sans-serif;
+    }
+    
